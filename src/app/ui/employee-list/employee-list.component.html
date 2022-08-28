@@ -1,10 +1,26 @@
-<link rel="stylesheet" href="/styles.css" />
-<h1>Employee list</h1>
+<style>
+  h1 {
+    text-decoration: underline;
+  }
+  .main_text {
+    font-weight:  bold;
+    font-size: 23px;
+  }
+  .sub_text {
+    font-style: italic;
+  }
+
+</style>
+
+<h1>List of employees:</h1>
 <ul *ngIf="data$ | async as data; else empty">
   <li *ngFor="let employee of data">
-    {{ employee.id }}: {{ employee.name }},<br>
-    {{ employee.email }} <br>
-    <img src="{{ employee.image }}" width="150" height="150"/>
+    <p>
+      <span class="main_text"> {{ employee.id }}: {{ employee.name }} </span>
+      <br> <img src="{{ employee.image }}" alt="picture of the employee" width="150" height="150"/>
+      <br>
+      Email address: <span class="sub_text"> {{ employee.email }} </span>
+    </p>
   </li>
 </ul>
 <ng-template #empty> There is no data </ng-template>
