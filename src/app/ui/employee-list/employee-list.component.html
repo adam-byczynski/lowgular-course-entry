@@ -1,7 +1,7 @@
 <style>
   .main_text {
     font-weight:  bold;
-    font-size: 23px;
+    font-size: 18px;
   }
   .sub_text {
     font-style: italic;
@@ -13,10 +13,8 @@
 <ul *ngIf="data$ | async as data; else empty">
   <li *ngFor="let employee of data">
     <p>
-      <span class="main_text"> {{ employee.id }}: {{ employee.name }} </span>
-      <br> <img src="{{ employee.image }}" alt="picture of the employee" width="150" height="150"/>
-      <br>
-      Email address: <span class="sub_text"> {{ employee.email }} </span>
+      <span class="main_text"> {{ employee.id }}: {{ employee.name }}; </span>
+      <span class="sub_text"> {{ employee.email }} </span>
     </p>
   </li>
 </ul>

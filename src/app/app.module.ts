@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeeListComponentModule } from "./ui/employee-list/employee-list.component-module";
 import {PageTitleComponentModule} from "./ui/page-title/page-title.component-module";
+import {
+  EmployeeImagesLowBarComponentModule
+} from "./ui/employee-images-low-bar/employee-images-low-bar.component-module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +17,7 @@ import {PageTitleComponentModule} from "./ui/page-title/page-title.component-mod
     HttpClientModule,
     EmployeeListComponentModule,
     PageTitleComponentModule,
+    EmployeeImagesLowBarComponentModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
