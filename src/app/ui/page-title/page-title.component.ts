@@ -3,7 +3,6 @@ import {
   Component,
   ViewEncapsulation,
 } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'page-title',
@@ -12,7 +11,7 @@ import {HttpClient} from "@angular/common/http";
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PageTitleComponent {
-  constructor(private _client: HttpClient) {}
-  pageTitle: string = 'List of employees'
+  constructor() {}
+  pageTitle: string = 'List of employees:'
 }
 

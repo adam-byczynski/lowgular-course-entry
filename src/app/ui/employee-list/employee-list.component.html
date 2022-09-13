@@ -13,8 +13,8 @@
 <ul *ngIf="data$ | async as data; else empty">
   <li *ngFor="let employee of data">
     <p>
-      <span class="main_text"> {{ employee.id }}: {{ employee.name }}; </span>
-      <span class="sub_text"> {{ employee.email }} </span>
+      <span class="main_text"> {{ employee.personalNumber }}: {{ employee.name }}; </span>
+      <span class="sub_text"> {{ employee.mail }} </span>
     </p>
   </li>
 </ul>

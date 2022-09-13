@@ -8,6 +8,7 @@ import {PageTitleComponentModule} from "./ui/page-title/page-title.component-mod
 import {
   EmployeeImagesLowBarComponentModule
 } from "./ui/employee-images-low-bar/employee-images-low-bar.component-module";
+import {EmployeeServiceModule} from "./services/employee.service-module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +19,7 @@ import {
     EmployeeListComponentModule,
     PageTitleComponentModule,
     EmployeeImagesLowBarComponentModule,
+    EmployeeServiceModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
