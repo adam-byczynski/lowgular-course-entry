@@ -935,3 +935,1010 @@
 	"level": "info",
 	"message": "[API] Response ok: data-structure/create"
 }
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "Ulzv_hCGn7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "Ulzv_hCGn7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for data-structure/create: {
+	"action": "data-structure/create",
+	"params": {
+		"name": "project",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "Ulzv_hCGn7",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for data-structure/create"
+}
+[info] [CLI] Calling Command data-structure/create: {
+	"funcParams": {
+		"name": "project",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command data-structure/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"name": "project",
+		"suffix": "Model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_DATA_STRUCTURE"
+}
+[info] [CommandBus]: Handled  CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"name": "project",
+		"suffix": "Model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_DATA_STRUCTURE"
+}
+[info] [CLI] Called Command data-structure/create: {
+	"message": "[CLI] Called Command data-structure/create",
+	"level": "info"
+}
+[info] [API] Response ok: data-structure/create: {
+	"result": {
+		"filePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model/project.model.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: data-structure/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "j7UJ0zXTfs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "j7UJ0zXTfs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for service/create: {
+	"action": "service/create",
+	"params": {
+		"name": "projects",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services",
+		"entityId": "dataService"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "j7UJ0zXTfs",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for service/create"
+}
+[info] [CLI] Calling Command service/create: {
+	"funcParams": {
+		"name": "projects",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services",
+		"entityId": "dataService"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command service/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services",
+		"name": "projects",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_SERVICE"
+}
+[info] [EventBus]: Broadcasting event SERVICE_CREATED: {
+	"type": "SERVICE_CREATED",
+	"payload": {
+		"createdFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services/projects.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SERVICE_CREATED"
+}
+[info] [CommandBus]: Dispatching command MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services/projects.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_CREATE_MODULE"
+}
+[info] [EventBus]: Broadcasted SERVICE_CREATED: {
+	"event": {
+		"createdFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services/projects.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SERVICE_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services/projects.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services/projects.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services/projects.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_CREATE_MODULE"
+}
+[info] [CommandBus]: Handled  CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services",
+		"name": "projects",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_SERVICE"
+}
+[info] [CLI] Called Command service/create: {
+	"message": "[CLI] Called Command service/create",
+	"level": "info"
+}
+[info] [API] Response ok: service/create: {
+	"result": {
+		"filePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/services/projects.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: service/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "T52oGIkoQS",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "T52oGIkoQS",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for data-structure/create: {
+	"action": "data-structure/create",
+	"params": {
+		"name": "projects",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "T52oGIkoQS",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for data-structure/create"
+}
+[info] [CLI] Calling Command data-structure/create: {
+	"funcParams": {
+		"name": "projects",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"entityId": "model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command data-structure/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"name": "projects",
+		"suffix": "Model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_DATA_STRUCTURE"
+}
+[info] [CommandBus]: Handled  CREATE_DATA_STRUCTURE: {
+	"commandName": "CREATE_DATA_STRUCTURE",
+	"payload": {
+		"folderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model",
+		"name": "projects",
+		"suffix": "Model",
+		"properties": {
+			"id": "string",
+			"name": "string",
+			"owner": "string",
+			"description": "string"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_DATA_STRUCTURE"
+}
+[info] [CLI] Called Command data-structure/create: {
+	"message": "[CLI] Called Command data-structure/create",
+	"level": "info"
+}
+[info] [API] Response ok: data-structure/create: {
+	"result": {
+		"filePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/model/projects.model.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: data-structure/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "Z2tmcw2ppn",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "lowgular-course-entry",
+			"path": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "Z2tmcw2ppn",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "component",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "ui/$name$",
+			"insideOf": "App",
+			"config": {
+				"stylesExtension": "none",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "App"
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "model",
+			"insideOf": "App"
+		},
+		{
+			"id": "response",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "services",
+			"insideOf": "App"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "projects-list",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "NswFjQX6bmcocRVRbAtJYEVUpjb2",
+			"correlationId": "Z2tmcw2ppn",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "projects-list",
+		"clickedPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui",
+		"entityId": "component"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "projects-list",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "projects-list",
+		"prefix": "app",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list",
+		"config": {
+			"stylesExtension": "none",
+			"viewEncapsulation": "Emulated",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "C:/Users/adam/Documents/lowgular_course/lowgular-course-entry/src/app/ui/projects-list/projects-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}

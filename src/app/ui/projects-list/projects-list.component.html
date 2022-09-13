@@ -16,18 +16,22 @@
   .sub_text {
     font-style: italic;
   }
-
+  .owner_text {
+    font-style: italic;
+    font-weight: bold;
+  }
 </style>
 
-<p class="category-title">List of employees:</p>
+<p class="category-title">List of projects:</p>
 <ul *ngIf="data$ | async as data; else empty">
-  <li *ngFor="let employee of data">
+  <li *ngFor="let project of data">
     <p>
-      <span class="main_text"> {{ employee.personalNumber }}: {{ employee.name }}; </span>
-      <span class="sub_text"> {{ employee.mail }} </span>
+      <span class="main_text"> {{ project.id }}: {{ project.name }}: </span>
+      <span class="sub_text"> {{ project.description }}, owner: </span> <span class="owner_text">{{project.owner}} </span>
     </p>
   </li>
 </ul>
+<br>
 <ng-template #empty> There is no data </ng-template>
 
 

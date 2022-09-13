@@ -4,11 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeeListComponentModule } from "./ui/employee-list/employee-list.component-module";
-import {PageTitleComponentModule} from "./ui/page-title/page-title.component-module";
 import {
   EmployeeImagesLowBarComponentModule
 } from "./ui/employee-images-low-bar/employee-images-low-bar.component-module";
 import {EmployeeServiceModule} from "./services/employee.service-module";
+import {ProjectsServiceModule} from "./services/projects.service-module";
+import {ProjectsListComponentModule} from "./ui/projects-list/projects-list.component-module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,9 +18,10 @@ import {EmployeeServiceModule} from "./services/employee.service-module";
     AppRoutingModule,
     HttpClientModule,
     EmployeeListComponentModule,
-    PageTitleComponentModule,
     EmployeeImagesLowBarComponentModule,
     EmployeeServiceModule,
+    ProjectsListComponentModule,
+    ProjectsServiceModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
