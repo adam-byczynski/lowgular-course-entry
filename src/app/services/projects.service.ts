@@ -10,5 +10,4 @@ export class ProjectsService {
   getAll(): Observable<ProjectsModel[]> {
     return this._httpClient.get<ProjectsModel[]>('assets/data/projects.json')
   }
-
 }
