@@ -24,7 +24,7 @@
   <li *ngFor="let employee of data">
     <p>
       <span class="main_text"> {{ employee.personalNumber }}: {{ employee.name }}; </span>
-      <span class="sub_text"> {{ employee.mail }} </span>
+      <span class="sub_text"> {{ employee.mail }} </span> <button (click)="delete_employee(employee.personalNumber)">Remove</button>
     </p>
   </li>
 </ul>
