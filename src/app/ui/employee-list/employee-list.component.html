@@ -1,0 +1,44 @@
+<style>
+  td {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+  }
+
+  td:first-child {
+    padding-left: 0;
+  }
+
+  td:last-child {
+    padding-right: 0;
+  }
+  .header_text {
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+  .content_text {
+    font-weight: normal;
+  }
+  button {
+    margin-left: 15px;
+  }
+</style>
+
+<table class="header_text" *ngIf="data$ | async as data; else empty">
+  <tr>
+    <th></th>
+    <th scope="col">Name</th>
+    <th scope="col">Age</th>
+    <th scope="col">Salary</th>
+  </tr>
+
+  <tr class="content_text" *ngFor="let employee of data">
+    <td>{{employee.id}}.</td>
+    <td>{{employee.name}}</td>
+    <td>{{employee.age}}</td>
+    <td>{{employee.salary}}</td>
+    <td><button (click)="delete_employee(employee)">Remove</button></td>
+  </tr>
+</table>
+
+<ng-template #empty>No data</ng-template>

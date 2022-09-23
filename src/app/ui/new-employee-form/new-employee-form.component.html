@@ -1,0 +1,19 @@
+<style>
+  .form {
+    margin-bottom: 20px;
+  }
+  .form_description {
+    font-style: italic;
+  }
+</style>
+
+<p class="form_description">
+  Add new employee to the list:
+</p>
+
+<form class="form" [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
+  <input type="text" formControlName="name" placeholder="Name">
+  <input type="number" formControlName="age" placeholder="Age">
+  <input type="number"  formControlName="salary" placeholder="Salary">
+  <input type="submit" [disabled]="employeeForm.invalid" value="Submit">
+</form>
