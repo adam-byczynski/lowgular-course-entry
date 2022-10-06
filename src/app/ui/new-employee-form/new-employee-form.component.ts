@@ -27,3 +27,4 @@ export class NewEmployeeFormComponent {
     alert(`User was successfully added to the database. Name: ${form.name}, Age: ${form.age}, Salary: ${form.salary}.`);
   }
 }
+

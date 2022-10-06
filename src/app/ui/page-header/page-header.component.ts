@@ -7,5 +7,5 @@ import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PageHeaderComponent {
-  pageHeader: string = 'List of Employees:'
+  pageHeader: string = 'List of Employees'
 }
