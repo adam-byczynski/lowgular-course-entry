@@ -19,8 +19,9 @@ export class EmployeeListComponent {
   data$: Observable<EmployeeDto[] | null> = this._getsAllEmployeesDTO.getEmployeesData();
 
   delete_employee(employee: EmployeeDto) {
-    this._deleteEmployeeDto.deleteEmployee(employee).subscribe(_ => this.deleteButtonClicked(employee));
+    this._deleteEmployeeDto.deleteEmployee(employee).subscribe(_ => this.deleteButtonClicked(employee), error => alert(this.error_message));
   }
+  error_message: string = 'An error occurred, please try again.';
 
   deleteButtonClicked(employee: EmployeeDto) {
     alert(`User ${employee.id}: ${employee.name} has been removed from list!`)

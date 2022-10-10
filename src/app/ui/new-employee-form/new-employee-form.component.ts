@@ -20,8 +20,9 @@ export class NewEmployeeFormComponent {
   }
 
   onFormSubmitted(form: EmployeeDto) {
-    this._createNewEmployeeDTO.createNewEmployee(form).subscribe(_ => this.onSubmitButtonClicked(form));
+    this._createNewEmployeeDTO.createNewEmployee(form).subscribe(_ => this.onSubmitButtonClicked(form), error => alert(this.error_message));
   }
+  error_message: string = 'An error occurred, please try again.';
 
   onSubmitButtonClicked(form: EmployeeDto) {
     alert(`User was successfully added to the database. Name: ${form.name}, Age: ${form.age}, Salary: ${form.salary}.`);
